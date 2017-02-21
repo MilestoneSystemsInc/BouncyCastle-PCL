@@ -73,14 +73,6 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <ItemGroup>
-    <!-- NuSpec file must be specified as name does not match dll name -->
-    <NuSpecFile Include="$(SolutionDir)Portable.BouncyCastle.nuspec" />
-  </ItemGroup>
-  <PropertyGroup>
-    <!-- dotnet, uap10.0 & net46 tfms -->
-    <NuSpecTfm>dotnet;uap10.0;net46</NuSpecTfm>
-  </PropertyGroup>
-  <ItemGroup>
     <None Include="..\BouncyCastle.snk">
       <Link>BouncyCastle.snk</Link>
     </None>
