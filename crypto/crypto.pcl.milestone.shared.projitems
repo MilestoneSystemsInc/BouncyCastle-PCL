@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>3471d534-f440-400d-80c4-bf4b7b12d33d</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>crypto.pcl.milestone.shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)src\**\*.cs" Exclude="$(MSBuildThisFileDirectory)src\AssemblyInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)bzip2\**\*.cs" />
+  </ItemGroup>
+</Project>
