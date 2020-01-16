@@ -7,7 +7,7 @@
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <Deterministic>true</Deterministic>
 	  <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
     <DefaultItemExcludes>$(DefaultItemExcludes);**\test\**\*.*;**\tst\**\*.*</DefaultItemExcludes>
