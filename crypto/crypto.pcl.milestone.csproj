@@ -67,9 +67,5 @@
     <DebugType>pdbonly</DebugType>
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
-  <ItemGroup>
-    <Content Remove="./**/test/**/*.*" />
-    <Content Remove="./**/tst/**/*.*" />
-  </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />  
 </Project>
